@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--360浏览器优先以webkit内核解析-->
+
+
+    <title> - 主页示例</title>
+
+    <link rel="shortcut icon" href="favicon.ico"> 
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
+    <style type="text/css">
+        html{width: 100%; height: 100%;}
+        body{
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url(images/regibg.jpg);
+            background-size: 100% 100%;
+        }
+        .gray-bg{
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+            <div class="row">
+                   
+                    
+                    <div class="col-md-7">
+                        <div class="card card-box">
+                            <div class="card-head">
+                                <header>新闻类型</header>
+                                <div class="tools">
+                                    <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                                    <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                                    <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                                </div>
+                            </div>
+                            <div class="card-body no-padding height-9">
+                                   <div class="row">
+                                        <div style="margin-left: 50px;">
+                                                <form action="" method="post">
+                                                   
+                                                        <table class="table table-bordered" >
+                                                            <thead>
+                                                            <tr>
+                                                                <th>新闻类型</th>
+                                                                <th>类型详情</th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                            <tr>
+                                                                <td><input type="text" name="score_name1" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                <td><input type="text" name="score1" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                            </tr>
+                                            <tr>
+                                                                <td><input type="text" name="score_name2" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                <td><input type="text" name="score2" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="text" name="score_name3" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                <td><input type="text" name="score3" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input type="text" name="score_name4" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                <td><input type="text" name="score4" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div style="float:right;margin-right: 20px;">
+                                                            <button type="submit" class="btn purple btn-outline btn-circle margin-0">添加</button>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </form>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-box">
+                                <div class="card-head">
+                                    <header>首页图片</header>
+                                    <div class="tools">
+                                        <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                                        <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                                        <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                                    </div>
+                                </div>
+                                <div class="card-body no-padding height-9">
+                                       <div class="row">
+                                            <div style="margin-left: 50px;">
+                                                    <form action="" method="post">
+                                                       
+                                                            <table class="table table-bordered" >
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>首页图片</th>
+                                                                        
+                                                                    </tr>
+                                                                    </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td><input type="text" name="score_name1" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                    
+                                                                </tr>
+                                                <tr>
+                                                                    <td><input type="text" name="score_name2" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><input type="text" name="score_name3" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                   
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><input type="text" name="score_name4" class="form-control" style="width: 200px;border-radius: 30px"></td>
+                                                                    
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <div style="float:right;margin-right: 20px;">
+                                                                <button type="submit" class="btn purple btn-outline btn-circle margin-0">添加</button>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </form>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-5">
+                        <div class="card  card-box">
+                            <div class="card-head">
+                                <header>投稿要求</header>
+                                <div class="tools">
+                                    <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                                    <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                                    <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                                </div>
+                            </div>
+                            <div class="card-body no-padding height-9">
+                                
+                                        <div class="noti-information notification-menu">
+                                                <div class="notification-list mail-list ">
+                                                    <div class="ibox-content" id="eg2">
+                                                        <div class="click3edit wrapper">
+                                                            
+                                                            <p>
+                                                                   
+                                                                    
+                                                                    
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div style="float:right" class="full-width text-center p-t-10">
+                                                        <button id="edit2" class="btn purple btn-outline btn-circle margin-0" onclick="edit2()" type="button">编辑</button>
+                                                        <button id="save2" class="btn purple btn-outline btn-circle margin-0" onclick="save2()" type="button">保存</button>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+    <!-- 全局js -->
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="js/plugins/layer/layer.min.js"></script>
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+    <!-- 自定义js -->
+    <script src="js/content.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <!--flotdemo-->
+
+
+<script charset="utf-8" src="/static/kindeditor/kindeditor-all.js"></script>
+
+<script>
+    KindEditor.ready(function (K) {
+        window.editor = K.create('#article_content', {
+            width: '900px',
+            uploadJson: "/upload_honor/",
+            extraFileUploadParams: {
+                csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+
+            },
+            filePostName: "upload_img"
+        });
+    });
+</script>
+<!-- SUMMERNOTE -->
+<script src="js/plugins/summernote/summernote.min.js"></script>
+<script src="js/plugins/summernote/summernote-zh-CN.js"></script>
+
+<script>
+   $(document).ready(function () {
+
+       $('.summernote').summernote({
+           lang: 'zh-CN'
+       });
+
+   });
+   var edit = function () {
+       $("#eg").addClass("no-padding");
+       $('.click2edit').summernote({
+           lang: 'zh-CN',
+           focus: true
+       });
+   };
+   var save = function () {
+       $("#eg").removeClass("no-padding");
+       var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
+       $('.click2edit').destroy();
+   };
+</script>
+<script>
+    $(document).ready(function () {
+ 
+        $('.summernote').summernote({
+            lang: 'zh-CN'
+        });
+ 
+    });
+    var edit2 = function () {
+        $("#eg2").addClass("no-padding");
+        $('.click3edit').summernote({
+            lang: 'zh-CN',
+            focus: true
+        });
+    };
+    var save2 = function () {
+        $("#eg2").removeClass("no-padding");
+        var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
+        $('.click3edit').destroy();
+    };
+ </script>
+<script>
+$(document).ready(function () {
+
+    Dropzone.options.myAwesomeDropzone = {
+
+        autoProcessQueue: false,
+        uploadMultiple: true,
+        parallelUploads: 100,
+        maxFiles: 100,
+
+        // Dropzone settings
+        init: function () {
+            var myDropzone = this;
+
+            this.element.querySelector("button[type=submit]").addEventListener("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                myDropzone.processQueue();
+            });
+            this.on("sendingmultiple", function () {});
+            this.on("successmultiple", function (files, response) {});
+            this.on("errormultiple", function (files, response) {});
+        }
+
+    }
+
+});
+</body>
+</html>
