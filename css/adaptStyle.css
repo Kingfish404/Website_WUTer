@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px) {
+    nav a {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: xx-small;
+    }
+
+    nav .fa {
+        display: none;
+    }
+
+    footer table {
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid white;
+    }
+
+    footer address {
+        width: 100%;
+        float: none;
+        border-left: none;
+        padding-top: 3%;
+    }
+
+    .list{
+        width: auto;
+    }
+}
