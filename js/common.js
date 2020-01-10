@@ -8,21 +8,13 @@ function init(){
     let l = 0;
     let aside =$("aside");
     $("#UpButton").hide();
-
     $("#floatBottom img").attr('src','image/wechat.jpg');
-
-    const listItem = $(".list");
-    let listHeight =listItem[0].getBoundingClientRect().height;
-    let listWidth =listItem[0].getBoundingClientRect().width;
-    let rowNum =Math.floor((ShowWidth*0.8-aside.width())/listWidth);
-    let i = Math.ceil(9/rowNum);
-    aside.css('height',listHeight*i+"px");
 
     //浮动按钮的自适应大小
     if(ShowWidth>1200){
-         l = 50;
+        l = 50;
     }else {
-         l = ShowWidth*0.05;
+        l = ShowWidth*0.05;
     }
     $("#floatBottom i").each(function () {
         $(this).css("width",l+"px");

@@ -2,6 +2,13 @@
     nav a {
         font-size: small;
     }
+
+    main{
+        padding: 0 0;
+    }
+    .list{
+        width: 38%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -26,7 +33,11 @@
         padding-top: 3%;
     }
 
+    main{
+        padding: 0 0;
+    }
+
     .list{
-        width: auto;
+        width: 77%;
     }
 }
