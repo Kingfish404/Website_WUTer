@@ -194,10 +194,14 @@ footer a {
 }
 
 #imgBox {
+    height: 150px;
     width: 100%;
     clear: both;
     display: block;
-    background-color: black;
+    margin: 3% 0;
+    padding-top: 1%;
+    position: relative;
+    overflow: hidden;
 }
 
 #notice{
@@ -206,6 +210,9 @@ footer a {
 #imgBanner{
     width: 19%;
     float: left;
+}
+#smallImgBar{
+    margin-top: 5%;
 }
 #news{
     width:50%;
@@ -221,6 +228,11 @@ footer a {
 .rank p{
     margin: 0;
 }
+.rank img{
+    width: 25px;
+    margin-right: 10px;
+    display: inline-block;
+}
 .rank li{
     padding: 2%  15% 4%;
 }
@@ -230,14 +242,50 @@ footer a {
 }
 
 .conbox{
-    margin: 0 10%;
+    margin: 0 70px;
     display: block;
     overflow: hidden;
-    background-color: red;
+    white-space:nowrap;
 }
 .conbox li{
-    width: 30%;
-    display: inline-block;
+    display: inline;
+}
+.conbox img{
+    width: 150px;
+    margin: 0 100px 0 0;
+    transition:transform 1s;
+}
+.conbox img:hover{
+    transform: scale(1.1);
+}
+
+
+.movebtn{
+    line-height: 150px;
+    position: absolute;
+    border-radius: 5px;
+}
+.movebtn i:hover{
+    background-color: black;
+}
+.movebtn i{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgb(210,208,205);
+    line-height: 40px;
+    font-size: 40px;
+    padding-left: 10px;
+    color: white;
+}
+.btnl{
+    left: 1%;
+}
+.btnr{
+    right: 1%;
+}
+.btnr i{
+    padding-left: 14px;
 }
 
 #floatBottom {
