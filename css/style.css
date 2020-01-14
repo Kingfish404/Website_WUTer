@@ -20,7 +20,6 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-
 header img {
     width: 100%;
 }
@@ -32,8 +31,8 @@ nav {
 
 nav ul {
     margin-top: 0;
-    margin-bottom: 10px;
     padding-left: 10%;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -69,11 +68,18 @@ nav a:hover .line {
 }
 
 nav i {
-    padding-right: 5%;
+    padding-right: 10%;
+}
+
+banner{
+    display: block;
+    margin-bottom: 15px;
 }
 
 main{
-    padding: 2% 10%;
+    padding: 1% 10%;
+    /*background-image: url("../image/colorChange-min.jpg");*/
+    background-repeat: no-repeat;
 }
 
 aside{
@@ -113,8 +119,6 @@ footer address {
 footer a {
     color: #616161;
 }
-footer section a{
-}
 
 /*标签属性---结束*/
 
@@ -136,7 +140,7 @@ footer section a{
 .catalogHead{
     padding: 5px 7px;
     margin: 0 0 3px;
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px dashed #e5e5e5;
 }
 .catalogHead p{
     font:large bold;
@@ -145,9 +149,8 @@ footer section a{
     float: right;
     line-height: 200%;
 }
-.catalog a{}
 .catalog p {
-    margin: 0 15px;
+    margin: 0 0 0 15px;
     display: inline-block;
 }
 .catalog section{
@@ -190,9 +193,23 @@ footer section a{
     display: block;
 }
 
-#imgBar {
+#imgBox {
+    width: 100%;
     clear: both;
     display: block;
+    background-color: black;
+}
+
+#notice{
+    width: 30%;
+}
+#imgBanner{
+    width: 19%;
+    float: left;
+}
+#news{
+    width:50%;
+    margin-right: 0;
 }
 
 .rank{
@@ -210,6 +227,17 @@ footer section a{
 .rank:hover{
     transform: scale(1) translate(0,-1%);
     box-shadow: 0 0 15px gray;
+}
+
+.conbox{
+    margin: 0 10%;
+    display: block;
+    overflow: hidden;
+    background-color: red;
+}
+.conbox li{
+    width: 30%;
+    display: inline-block;
 }
 
 #floatBottom {

@@ -1,3 +1,4 @@
+/* 小屏幕 */
 @media screen and (max-width: 992px) {
     nav a {
         font-size: small;
@@ -9,8 +10,19 @@
     .list{
         width: 38%;
     }
+    #notice{
+        width: 50%;
+        font-size: small;
+
+    }
+    #news{
+        width:100%;
+        font-size: small;
+    }
 }
 
+
+/* 较小屏幕 */
 @media screen and (max-width: 768px) {
     nav a {
         font-size: xx-small;
@@ -18,6 +30,10 @@
 
     nav .fa {
         display: none;
+    }
+
+    aside img{
+        margin: 5% 0;
     }
 
     footer table {
@@ -37,7 +53,29 @@
         padding: 0 0;
     }
 
-    .list{
-        width: 77%;
+    .catalog p{
+        margin: 0 0 0 10px;
     }
+
+    .list{
+        width: 38%;
+        font-size: x-small;
+    }
+
+    .rank p{
+        font-size: medium;
+    }
+
+    #notice{
+        width: 45%;
+        font-size: x-small;
+    }
+    #imgBanner{
+        width:50%;
+        float: right;
+    }
+    #news{
+        width:100%;
+    }
+
 }
