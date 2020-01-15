@@ -5,7 +5,7 @@
     }
 
     main{
-        padding: 0 0;
+        padding: 0 10px;
     }
     .list{
         width: 38%;
@@ -16,7 +16,8 @@
 
     }
     #smallImgBar{
-        margin-top: 10%;
+        width: 200px;
+        margin-top: 3%;
     }
     #news{
         width:100%;
@@ -52,8 +53,12 @@
         padding-top: 3%;
     }
 
+    footer p{
+       margin-bottom: 0;
+    }
+
     main{
-        padding: 0 0;
+        padding: 0 4px;
     }
 
     .carousel-indicators{
@@ -61,6 +66,9 @@
     }
     .catalog p{
         margin: 0 0 0 10px;
+    }
+    .catalogHead p {
+        font-size: 16px;
     }
 
     .list{
@@ -72,16 +80,23 @@
         font-size: medium;
     }
 
+    .swiper-container {
+        margin: 0 auto;
+    }
+    .swiper-slide{
+        height: 100px;
+    }
+
     #notice{
         width: 45%;
         font-size: x-small;
     }
     #imgBanner{
         width:50%;
-        float: right;
+        float: left;
     }
     #news{
         width:100%;
     }
-
 }
+

@@ -143,13 +143,19 @@ footer a {
     border-bottom: 1px dashed #e5e5e5;
 }
 .catalogHead p{
-    font:large bold;
+    font-family: 微软雅黑, serif;
+    font-size: 20px;
+    font-weight:bold;
 }
 .catalogHead a{
+    font-family: 微软雅黑, serif;
+    font-weight:bold;
+    color: rgb(79, 145, 183);;
     float: right;
     line-height: 200%;
 }
 .catalog p {
+    font-family: 微软雅黑, serif;
     margin: 0 0 0 15px;
     display: inline-block;
 }
@@ -198,11 +204,13 @@ footer a {
     width: 100%;
     clear: both;
     display: block;
+    user-select: none;
     margin: 3% 0;
     padding-top: 1%;
     position: relative;
     overflow: hidden;
 }
+
 
 #notice{
     width: 30%;
@@ -239,53 +247,6 @@ footer a {
 .rank:hover{
     transform: scale(1) translate(0,-1%);
     box-shadow: 0 0 15px gray;
-}
-
-.conbox{
-    margin: 0 70px;
-    display: block;
-    overflow: hidden;
-    white-space:nowrap;
-}
-.conbox li{
-    display: inline;
-}
-.conbox img{
-    width: 150px;
-    margin: 0 100px 0 0;
-    transition:transform 1s;
-}
-.conbox img:hover{
-    transform: scale(1.1);
-}
-
-
-.movebtn{
-    line-height: 150px;
-    position: absolute;
-    border-radius: 5px;
-}
-.movebtn i:hover{
-    background-color: black;
-}
-.movebtn i{
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    background-color:rgb(210,208,205);
-    line-height: 40px;
-    font-size: 40px;
-    padding-left: 10px;
-    color: white;
-}
-.btnl{
-    left: 1%;
-}
-.btnr{
-    right: 1%;
-}
-.btnr i{
-    padding-left: 14px;
 }
 
 #floatBottom {

@@ -1,7 +1,26 @@
 let ShowWidth = $(document).width();
 let ShowHeight = $(document).height();
 
-init();
+firstInit();
+
+//首次初始化函数
+function firstInit() {
+    init();
+
+    $("#btnl").click(function () {
+        // $(".conbox").animate({left:"-=140px"},300,function () {
+        // });
+        $(".conbox img").first().hide();
+        $(".cur:first").hide();
+        console.log("1111");
+    });
+
+    $("#btnr").click(function () {
+        // $(".conbox").animate({left:"+=140px"},300,function () {
+        // });
+        $(".cur:first").show();
+    });
+}
 
 // 初始化函数
 function init(){
