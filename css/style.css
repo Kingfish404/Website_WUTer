@@ -277,3 +277,68 @@ footer a {
 #UpButton {
     display: none;
 }
+
+
+/* 细节页面的css */
+
+.wrapLeft{
+    width: 10%;
+    float: left;
+    margin: 2% 2%;
+}
+.wrapLeft li{
+    display: flex;
+    list-style: none;
+    border: 1px solid #eee;
+}
+.wrapLeft a{
+    width: 100%;
+    padding: 14px 20px 14px 25px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.wrapLeft a:hover{
+    text-decoration: none;
+}
+
+.information{
+    width: 62%;;
+    margin:1% 15% 5%;
+}
+.information p{
+    text-indent: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.information img{
+    width: 70%;
+    margin: auto 15%;
+}
+.information h2{
+    text-align: center;
+}
+.information .info,i{
+    text-align: center;
+    padding-right: 5px;
+}
+.information table li{
+    list-style: none;
+}
+.information table{
+    border:1px solid black;
+}
+.information tr{
+    border:1px solid black;
+}
+.information td{
+    border:1px solid black;
+}
+
+.wrapRight{
+    width: 20%;
+    float: right;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.wrapRight img{
+}

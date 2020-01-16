@@ -2,6 +2,7 @@
     width: 90%;
     height: auto;
     margin: 5% auto;
+
 }
 .swiper-slide {
     text-align: center;
@@ -30,4 +31,7 @@
 .swiper-pagination{
     position: absolute;
     bottom: -10px;
+}
+.swiper-button-prev{
+    left: -1%;
 }

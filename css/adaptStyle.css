@@ -79,6 +79,15 @@
     .rank p{
         font-size: medium;
     }
+    .rank li{
+        padding: 10px 0;
+        font-size: small;
+    }
+    .rank img{
+        width: 20px;
+        margin-right:0;
+        margin-bottom: 10px;
+    }
 
     .swiper-container {
         margin: 0 auto;
@@ -98,5 +107,19 @@
     #news{
         width:100%;
     }
-}
 
+    /* 细节页面的css */
+    .wrapLeft a{
+        padding: 14px 2px 0 0;
+    }
+
+    .wrapRight {
+        display: none;
+    }
+    .information {
+        width: 83%;
+    }
+    .information h2{
+        font-size: large;
+    }
+}
