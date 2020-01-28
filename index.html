@@ -489,9 +489,8 @@
             <div class="swiper-slide"><img src="image/b6.jpg" alt=""></div>
 
         </div>
-
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+        
+     
     </div>
     <!-- swiper滑动轮播控件结束 -->
 
@@ -592,7 +591,7 @@
             autoplay: true,
             loop: true,
             speed: 1000,
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 30,
             centeredSlides: true,
             watchSlidesProgress: true,
@@ -629,10 +628,14 @@
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
+                hideOnClick: true,
             },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
             },
         });
 
