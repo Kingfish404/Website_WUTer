@@ -41,8 +41,6 @@ function init(){
         $(this).css("font-size",l/2.5+"px");
         $(this).css("line-height",l+"px");
     });
-
-    console.log('init successfully');
 }
 
 // 窗口大小变化的自适应
