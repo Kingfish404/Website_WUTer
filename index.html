@@ -38,13 +38,16 @@
             <li><a href="#"><i class="fa fa-folder"></i>办公文件<div class="line"></div></a></li>
             <li><a href="#"><i class="fa fa-commenting"></i>通知公告<div class="line"></div></a></li>
             <li><a href="information.html"><i class="fa fa-unlock-alt"></i>信息公开<div class="line"></div></a></li>
-            <li><a href="/file/办公常用字体.zip"><i class="fa fa-download"></i>常用下载<div class="line"></div></a></li>
+
+            <!-- 此处为了在GitHub部署预览时能正确下载文件改，本地预览无法正确链接，请勿更改 -->
+            <li><a href="Website_WUTer/file/办公常用字体.zip"><i class="fa fa-download"></i>常用下载<div class="line"></div></a></li>
         </ul>
     </nav>
 
     <main>
 
         <banner>
+            <!-- bootstrap4轮播控件  参考文档：https://v4.bootcss.com/docs/components/carousel/ -->
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -58,10 +61,14 @@
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="image/厚德博学追求卓越.jpg" class="d-block w-100" alt="">
+                        <a href="newDetails.html">
+                            <img src="image/厚德博学追求卓越.jpg" class="d-block w-100" alt="">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="image/青春心向党建功新时代.jpg" class="d-block     w-100" alt="">
+                        <a href="newDetails.html">
+                            <img src="image/青春心向党建功新时代.jpg" class="d-block     w-100" alt="">
+                        </a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -73,6 +80,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <!-- bootstrap4轮播控件 结束 -->
         </banner>
 
         <div id="topMes">
@@ -129,7 +137,7 @@
         <div id="news" class="catalog">
             <div class="catalogHead">
                 <p class="catalogTitle">新闻速递</p>
-                <a href="#">MORE>></a>
+                <a href="newsCatalog.html">MORE>></a>
             </div>
             <section>
                 <a href="#">
@@ -472,6 +480,7 @@
         </div>
     </main>
 
+    <!-- swiper滑动轮播控件  参考文档：https://www.swiper.com.cn/api/index.html -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="image/b1.jpg" alt=""></div>
@@ -487,6 +496,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-pagination"></div>
     </div>
+    <!-- swiper滑动轮播控件结束 -->
 
     <div id="floatBottom">
         <img alt="" src="">

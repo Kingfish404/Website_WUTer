@@ -35,3 +35,11 @@
 .swiper-button-prev{
     left: -1%;
 }
+
+
+.swiper-button-prev:hover{
+    background-color: beige;
+}
+.swiper-button-next:hover{
+    background-color: beige;
+}

@@ -340,5 +340,13 @@ footer a {
     margin-left: 3%;
     margin-top: 2%;
 }
-.wrapRight img{
+
+.PageCatalog{
+
+}
+.PageCatalog .media{
+    border-bottom: 1px solid lightgray;
+}
+.PageCatalog time{
+    float: right;
 }
