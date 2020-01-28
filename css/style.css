@@ -341,12 +341,13 @@ footer a {
     margin-top: 2%;
 }
 
-.PageCatalog{
-
-}
 .PageCatalog .media{
     border-bottom: 1px solid lightgray;
+    padding: 8px 0;
 }
 .PageCatalog time{
     float: right;
+}
+.PageCatalog section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
