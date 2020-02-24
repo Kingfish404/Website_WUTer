@@ -111,6 +111,9 @@
     }
 
     /* 细节页面的css */
+    .wrapLeft{
+        display: none;
+    }
     .wrapLeft a{
         padding: 14px 2px 0 0;
     }
@@ -119,7 +122,8 @@
         display: none;
     }
     .information {
-        width: 83%;
+        width: 94%;
+        margin: 1% 3%;
     }
     .information h2{
         font-size: large;
