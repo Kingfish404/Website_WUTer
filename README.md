@@ -1,6 +1,5 @@
 # 武汉理工大学-理工青年网
 
-这是一个正在开发的项目  
 URL：[https://kingfish404.com/Website_WUTer/](https://kingfish404.com/Website_WUTer/)
 
 ## 页面说明
