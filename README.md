@@ -36,5 +36,5 @@ newDetails.html
     ├─bootstrap-3.3.7-dist
     ├─bootstrap-4.4.1-dist
     ├─font-awesome-4.7.0
-    └─swiper-5.3.8
+    └─swiper-5.2.1
 ```
