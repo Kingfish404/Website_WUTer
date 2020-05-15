@@ -1,10 +1,12 @@
 /*标签属性----开始*/
+
 * {
     padding: 0;
     margin: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -20,6 +22,7 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
 header img {
     width: 100%;
 }
@@ -71,27 +74,30 @@ nav i {
     padding-right: 10%;
 }
 
-banner{
+banner {
     display: block;
     margin-bottom: 15px;
 }
 
-main{
+main {
     padding: 1% 10%;
     /*background-image: url("../image/colorChange-min.jpg");*/
     background-repeat: no-repeat;
 }
 
-aside{
+aside {
     width: 22%;
     float: right;
     overflow: visible;
+    margin-bottom: 1%;
 }
-aside img{
+
+aside img {
     width: 100%;
     margin: 0 0 5% 0;
 }
-aside li{
+
+aside li {
     display: block;
 }
 
@@ -120,61 +126,73 @@ footer a {
     color: #616161;
 }
 
+
 /*标签属性---结束*/
 
-.list{
+.list {
     width: 25%;
 }
 
 .catalog {
     background-color: rgba(225, 225, 225, 0.1);
-    margin:0 1% 1% 0;
+    margin: 0 1% 1% 0;
     transition: .5s;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
     float: left;
 }
+
 .catalogTitle {
     display: inline-block;
 }
-.catalogHead{
+
+.catalogHead {
     padding: 5px 7px;
     margin: 0 0 3px;
     border-bottom: 1px dashed #e5e5e5;
 }
-.catalogHead p{
+
+.catalogHead p {
     font-family: 微软雅黑, serif;
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
 }
-.catalogHead a{
+
+.catalogHead a {
     font-family: 微软雅黑, serif;
-    font-weight:bold;
-    color: rgb(79, 145, 183);;
+    font-weight: bold;
+    color: rgb(79, 145, 183);
+    ;
     float: right;
     line-height: 200%;
 }
+
 .catalog p {
     font-family: 微软雅黑, serif;
     margin: 0 0 0 15px;
     display: inline-block;
 }
-.catalog section{
+
+.catalog section {
     padding: 10px 10px 10px 0;
 }
-.catalog section a{
-    margin: 0 0  10px;
+
+.catalog section a {
+    margin: 0 0 10px;
     color: black;
     display: block;
 }
-.catalog time{
+
+.catalog time {
     float: right;
 }
+
 .catalog section a:hover {
     text-decoration: none;
 }
-.catalog:hover{
-    transform: scale(1) translate(0,-1%);
+
+.catalog:hover {
+    transform: scale(1) translate(0, -1%);
     box-shadow: 0 0 15px gray;
 }
 
@@ -190,7 +208,7 @@ footer a {
     -o-transition: width .4s;
 }
 
-#topMes{
+#topMes {
     clear: both;
 }
 
@@ -211,41 +229,47 @@ footer a {
     overflow: hidden;
 }
 
-
-#notice{
+#notice {
     width: 30%;
 }
-#imgBanner{
+
+#imgBanner {
     width: 19%;
     float: left;
 }
-#smallImgBar{
-    margin-top: 5%;
+
+#smallImgBar {
+    padding: 5%;
 }
-#news{
-    width:50%;
+
+#news {
+    width: 50%;
     margin-right: 0;
 }
 
-.rank{
+.rank {
     background-color: rgba(225, 225, 225, 0.1);
     transition: .5s;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
 }
-.rank p{
+
+.rank p {
     margin: 0;
 }
-.rank img{
+
+.rank img {
     width: 25px;
     margin-right: 10px;
     display: inline-block;
 }
-.rank li{
-    padding: 2%  15% 4%;
+
+.rank li {
+    padding: 0 15% 0;
 }
-.rank:hover{
-    transform: scale(1) translate(0,-1%);
+
+.rank:hover {
+    transform: scale(1) translate(0, -1%);
     box-shadow: 0 0 15px gray;
 }
 
@@ -281,79 +305,94 @@ footer a {
 
 /* 细节页面的css */
 
-.wrapLeft{
+.wrapLeft {
     width: 10%;
     float: left;
     margin: 2% 2%;
 }
-.wrapLeft li{
+
+.wrapLeft li {
     display: flex;
     list-style: none;
     border: 1px solid #eee;
 }
-.wrapLeft a{
+
+.wrapLeft a {
     width: 100%;
     padding: 14px 20px 14px 25px;
     font-weight: bold;
     color: #000;
     text-align: center;
 }
-.wrapLeft a:hover{
+
+.wrapLeft a:hover {
     text-decoration: none;
 }
 
-.information{
-    width: 62%;;
-    margin:1% 15% 5%;
+.information {
+    width: 62%;
+    ;
+    margin: 1% 15% 5%;
 }
-.information p{
+
+.information p {
     text-indent: 2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.information img{
+
+.information img {
     width: 70%;
     margin: auto 15%;
 }
-.information h2{
+
+.information h2 {
     text-align: center;
 }
-.information .info,i{
+
+.information .info,
+i {
     text-align: center;
     padding-right: 5px;
 }
-.information table li{
+
+.information table li {
     list-style: none;
 }
-.information table{
-    border:1px solid black;
-}
-.information tr{
-    border:1px solid black;
-}
-.information td{
-    border:1px solid black;
+
+.information table {
+    border: 1px solid black;
 }
 
-.organizationTable table{
+.information tr {
+    border: 1px solid black;
+}
+
+.information td {
+    border: 1px solid black;
+}
+
+.organizationTable table {
     width: 90%;
     margin: 1% 5%;
     text-align: center;
 }
 
-.wrapRight{
+.wrapRight {
     width: 20%;
     float: right;
     margin-left: 3%;
     margin-top: 2%;
 }
 
-.PageCatalog .media{
+.PageCatalog .media {
     border-bottom: 1px solid lightgray;
     padding: 8px 0;
 }
-.PageCatalog time{
+
+.PageCatalog time {
     float: right;
 }
-.PageCatalog section{
+
+.PageCatalog section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
