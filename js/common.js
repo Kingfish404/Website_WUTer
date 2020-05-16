@@ -12,7 +12,6 @@ function firstInit() {
         // });
         $(".conbox img").first().hide();
         $(".cur:first").hide();
-        console.log("1111");
     });
 
     $("#btnr").click(function() {
