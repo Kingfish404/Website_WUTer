@@ -230,21 +230,23 @@ footer a {
 }
 
 #notice {
-    width: 30%;
+    width: 25%;
 }
 
 #imgBanner {
-    width: 19%;
+    width: 29%;
     float: left;
+    margin: auto;
 }
 
 #smallImgBar {
-    padding: 5%;
+    padding: 0;
 }
 
 #news {
-    width: 50%;
-    margin-right: 0;
+    width: 44%;
+    margin-right: 0px;
+    margin-left: 13px;
 }
 
 .rank {
